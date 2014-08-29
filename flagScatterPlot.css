@@ -1,0 +1,12 @@
+.graph-event-flag {
+  cursor: pointer;
+}
+.graph-event-flag:hover > path,
+.graph-event-flag.active > path {
+  stroke: #a9abad;
+  fill: #f6f7f8;
+}
+.graph-event-flag:hover > text,
+.graph-event-flag.active > text {
+  fill: #007fbf;
+}
